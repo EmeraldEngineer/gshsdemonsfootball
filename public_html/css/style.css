@@ -1,0 +1,50 @@
+/*Temp Coming soon image centering*/
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center
+}
+.outerbox {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-image: url("../images/gshsdemonslogo.jpg");
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+
+#pink {
+	color: pink;
+}
+
+/* end temp */
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+.headerdiv {
+	width: 100vw;
+	height: 15vh;
+	background-color: darkred;
+	position: fixed;
+	margin: 0;
+	text-align: center;
+}
+
+#headerlogo {
+	max-height: 15vh;
+	float: left;
+}
+
+#headertext {
+	margin: 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+
+
+
