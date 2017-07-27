@@ -28,8 +28,10 @@ html,body {
 	width: 100vw;
 	height: 16vw;
 	background-color: darkred;
-	position: fixed;
+	/*position: fixed;*/
 	margin: 0;
+
+
 
 }
 
@@ -40,12 +42,12 @@ html,body {
 
 #headertext {
 	margin: 0;
-	display:flex;
 	justify-content:center;
 	align-items:center;
 	font-size: 5vw;
 	text-align: center;
 	font-weight: bold;
+
 
 }
 
@@ -64,4 +66,9 @@ html,body {
 	float: left;
 }
 
+#calbox {
+	width: 50vw;
+	margin-top: 10vw;
+	display: flex;
 
+}

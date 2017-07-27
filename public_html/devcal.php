@@ -17,6 +17,7 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+		<link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
 
 
 		<!-- moment.js scripts -->
@@ -24,7 +25,7 @@
 		<!-- FullCalendar scripts -->
 		<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css">
-		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.print.css">
+		<!--<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.print.css">-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/gcal.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -36,6 +37,13 @@
 			$(document).ready(function() {
 
 				$('#calendar').fullCalendar({
+					aspectRatio: 3,
+					header: {
+						left: 'prev, today',
+						center: 'title',
+						right: 'next'
+					},
+
 
 					googleCalendarApiKey: 'AIzaSyAlc7zJWBH4IV3qXTv_XUQwJCUHZPMS4wI',
 					events: {
@@ -60,6 +68,31 @@
 				</div>
 				<!-- End Banner -->
 		</header>
-		<div id="calendar"></div>
+		<header id="luxbar" class="luxbar-default">
+			<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+			<div class="luxbar-menu luxbar-menu-left luxbar-menu-dark">
+				<ul class="luxbar-navigation">
+					<li class="luxbar-header">
+						<label class="luxbar-hamburger luxbar-hamburger-doublespin"
+								 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+					</li>
+					<li class="luxbar-item"><a href="#">Home</a></li>
+					<li class="luxbar-item"><a href="#">Schedules</a>
+						<ul>
+							<li class="luxbar-item"><a href="#">Varsity</a></li>
+							<li class="luxbar-item"><a href="#">JV</a></li>
+							<li class="luxbar-item"><a href="#">Freshman</a></li>
+						</ul>
+					</li>
+					<li class="luxbar-item"><a href="#">Rosters</a></li>
+					<li class="luxbar-item"><a href="#">Forms</a></li>
+					<li class="luxbar-item"><a href="#">Calendar</a></li>
+					<li class="luxbar-item"><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="calbox">
+			<div id="calendar"></div>
+		</div>
 	</body>
 </html>
