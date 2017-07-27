@@ -77,13 +77,7 @@
 								 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
 					</li>
 					<li class="luxbar-item"><a href="#">Home</a></li>
-					<li class="luxbar-item"><a href="#">Schedules</a>
-						<ul>
-							<li class="luxbar-item"><a href="#">Varsity</a></li>
-							<li class="luxbar-item"><a href="#">JV</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
-						</ul>
-					</li>
+					<li class="luxbar-item"><a href="#">Schedules</a></li>
 					<li class="luxbar-item"><a href="#">Rosters</a></li>
 					<li class="luxbar-item"><a href="#">Forms</a></li>
 					<li class="luxbar-item"><a href="#">Calendar</a></li>
