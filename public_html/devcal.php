@@ -25,7 +25,7 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css">
 		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.print.css">
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/gcal.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -34,11 +34,15 @@
 		<script type='text/javascript'>
 
 			$(document).ready(function() {
+
 				$('#calendar').fullCalendar({
+
 					googleCalendarApiKey: 'AIzaSyAlc7zJWBH4IV3qXTv_XUQwJCUHZPMS4wI',
 					events: {
 						googleCalendarId: 'h469sf6pp54j90dieounarv9vk@group.calendar.google.com'
 					}
+
+
 				});
 			});
 
