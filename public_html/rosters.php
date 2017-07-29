@@ -32,33 +32,6 @@
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-<!-- TODO Fix upcoming events list
-		<script type='text/javascript'>
-
-			$(document).ready(function() {
-
-				$('#calendar').fullCalendar({
-					defaultView: 'list',
-					header: false,
-					views {
-						list: {
-							duration: {days: 90},
-							listDayAltFormat: 'dddd'
-						}
-					},
-
-
-					googleCalendarApiKey: 'AIzaSyAlc7zJWBH4IV3qXTv_XUQwJCUHZPMS4wI',
-					events: {
-						googleCalendarId: 'h469sf6pp54j90dieounarv9vk@group.calendar.google.com'
-					}
-
-
-				});
-			});
-
-		</script> -->
-
 	</head>
 	<body>
 		<header>
@@ -97,10 +70,6 @@
 				</ul>
 			</div>
 		</header>
-		<!-- TODO re-enable after fixing list view
-		<div class="calbox">
-			<div id="calendar"></div>
-		</div>
-		-->
+
 	</body>
 </html>

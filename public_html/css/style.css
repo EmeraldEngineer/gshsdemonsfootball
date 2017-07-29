@@ -73,3 +73,7 @@ html,body {
 	display: flex;
 
 }
+
+.secondnav {
+	max-width: 50vw;
+}

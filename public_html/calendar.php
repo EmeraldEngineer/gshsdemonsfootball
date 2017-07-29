@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-	<!-- Created by Taylor McCarthy, background pattern "grey wash wall" from "toptal.com/designers/subtlepatterns/" -->
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
@@ -32,19 +30,18 @@
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-<!-- TODO Fix upcoming events list
+
+
 		<script type='text/javascript'>
 
 			$(document).ready(function() {
 
 				$('#calendar').fullCalendar({
-					defaultView: 'list',
-					header: false,
-					views {
-						list: {
-							duration: {days: 90},
-							listDayAltFormat: 'dddd'
-						}
+					aspectRatio: 3,
+					header: {
+						left: 'prev, today',
+						center: 'title',
+						right: 'next'
 					},
 
 
@@ -57,8 +54,7 @@
 				});
 			});
 
-		</script> -->
-
+		</script>
 	</head>
 	<body>
 		<header>
@@ -97,10 +93,8 @@
 				</ul>
 			</div>
 		</header>
-		<!-- TODO re-enable after fixing list view
 		<div class="calbox">
 			<div id="calendar"></div>
 		</div>
-		-->
 	</body>
 </html>
