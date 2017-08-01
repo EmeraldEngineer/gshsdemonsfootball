@@ -48,9 +48,9 @@
 						}
 					},
 
-					googleCalendarApiKey: 'AIzaSyAlc7zJWBH4IV3qXTv_XUQwJCUHZPMS4wI',
+					googleCalendarApiKey: 'AIzaSyC5NS9ELt7FVnjiUeylmK4keWJjDdhIP1g',
 					events: {
-						googleCalendarId: 'h469sf6pp54j90dieounarv9vk@group.calendar.google.com'
+						googleCalendarId: 'gshsfootballcalendar@gmail.com'
 					}
 
 
@@ -80,7 +80,7 @@
 						<label class="luxbar-hamburger luxbar-hamburger-doublespin"
 								 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
 					</li>
-					<li class="luxbar-item"><a href="#">Home</a></li>
+					<li class="luxbar-item"><a href="index.php">Home</a></li>
 					<li class="luxbar-item dropdown"><a href="#">Schedules</a>
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
@@ -97,7 +97,7 @@
 							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 						</ul>
 					</li>
-					<li class="luxbar-item"><a href="#">Forms</a></li>
+					<li class="luxbar-item"><a href="forms.php">Forms</a></li>
 					<li class="luxbar-item"><a href="calendar.php">Calendar</a></li>
 					<li class="luxbar-item"><a href="#">Contact</a></li>
 				</ul>
