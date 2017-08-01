@@ -93,8 +93,6 @@
 				</ul>
 			</div>
 		</header>
-		<div class="calbox">
 			<div id="calendar"></div>
-		</div>
 	</body>
 </html>

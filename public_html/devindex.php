@@ -32,21 +32,21 @@
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-<!-- TODO Fix upcoming events list
+ <!--TODO Fix upcoming events list-->
 		<script type='text/javascript'>
 
 			$(document).ready(function() {
 
 				$('#calendar').fullCalendar({
+					aspectRatio: 2.5,
 					defaultView: 'list',
 					header: false,
-					views {
+					views: {
 						list: {
-							duration: {days: 90},
+							duration: { days: 90},
 							listDayAltFormat: 'dddd'
 						}
 					},
-
 
 					googleCalendarApiKey: 'AIzaSyAlc7zJWBH4IV3qXTv_XUQwJCUHZPMS4wI',
 					events: {
@@ -57,7 +57,7 @@
 				});
 			});
 
-		</script> -->
+		</script>
 
 	</head>
 	<body>
@@ -97,10 +97,11 @@
 				</ul>
 			</div>
 		</header>
-		<!-- TODO re-enable after fixing list view
-		<div class="calbox">
-			<div id="calendar"></div>
-		</div>
-		-->
+		<!-- TODO re-enable after fixing list view -->
+		<div class="upEventTitle"><p>Upcoming Events</p></div>
+			<div class="upEvent">
+				<div id="calendar"></div>
+			</div>
+
 	</body>
 </html>
