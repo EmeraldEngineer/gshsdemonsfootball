@@ -32,7 +32,6 @@
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
- <!--TODO Fix upcoming events list-->
 		<script type='text/javascript'>
 
 			$(document).ready(function() {
@@ -103,11 +102,14 @@
 				</ul>
 			</div>
 		</header>
-		<!-- TODO re-enable after fixing list view -->
-		<div class="upEventTitle"><p>Upcoming Events</p></div>
-			<div class="upEvent">
-				<div id="calendar"></div>
-			</div>
-
+		<div class="upEventTitle">
+			<p>Fall Fit Camp 2017</p>
+			<form method="get" action="downloads/FALL%20FIT%20FB%20CAMP%202017.pdf">
+				<button type="submit">PDF</button>
+			</form>
+			<form method="get" action="downloads/FALL%20FIT%20FB%20CAMP%202017.doc">
+				<button type="submit">MS Word</button>
+			</form>
+		</div>
 	</body>
 </html>

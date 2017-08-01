@@ -61,7 +61,7 @@
 			<!-- Banner -->
 			<div class="headerdiv">
 
-					<img id="headerlogo" src="images/gshsdemonslogo-cropped.png">
+					<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
 					<p style="margin:0">Glenwood Springs High School Demons Football </p>
 				</div>
