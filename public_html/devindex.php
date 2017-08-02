@@ -85,14 +85,14 @@
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
+							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 						</ul>
 					</li>
 					<li class="luxbar-item dropdown"><a href="#">Rosters</a>
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
+							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 							<li class="luxbar-item"><a href="#">Managers</a></li>
 							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 						</ul>

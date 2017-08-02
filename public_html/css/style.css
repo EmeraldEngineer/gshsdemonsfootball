@@ -108,3 +108,10 @@ html,body {
 		1px 1px 0 black;
 }
 
+.formsText {
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-size: large;
+
+}

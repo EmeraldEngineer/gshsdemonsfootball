@@ -84,14 +84,14 @@
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
+							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 						</ul>
 					</li>
 					<li class="luxbar-item dropdown"><a href="#">Rosters</a>
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
+							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 							<li class="luxbar-item"><a href="#">Managers</a></li>
 							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 						</ul>
@@ -102,7 +102,7 @@
 				</ul>
 			</div>
 		</header>
-		<div class="upEventTitle">
+		<div class="formsText">
 			<p>Fall Fit Camp 2017</p>
 			<form method="get" action="downloads/FALL%20FIT%20FB%20CAMP%202017.pdf">
 				<button type="submit">PDF</button>

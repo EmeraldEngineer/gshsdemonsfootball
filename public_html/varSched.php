@@ -37,18 +37,19 @@
 			$(document).ready(function() {
 
 				$('#calendar').fullCalendar({
-					timezone: 'America/Denver',
 					aspectRatio: 2.5,
-					header: {
-						left: 'prev, today',
-						center: 'title',
-						right: 'next'
+					defaultView: 'list',
+					header: false,
+					views: {
+						list: {
+							duration: { days: 90},
+							listDayAltFormat: 'dddd'
+						}
 					},
-
 
 					googleCalendarApiKey: 'AIzaSyC5NS9ELt7FVnjiUeylmK4keWJjDdhIP1g',
 					events: {
-						googleCalendarId: 'gshsfootballcalendar@gmail.com'
+						googleCalendarId: 'k77j5h0vja0bkjdh9kidp2r2s8@group.calendar.google.com'
 					}
 
 
@@ -100,6 +101,9 @@
 				</ul>
 			</div>
 		</header>
+		<div class="upEventTitle"><p>Upcoming Varsity Games</p></div>
+		<div class="upEvent">
 			<div id="calendar"></div>
+		</div>
 	</body>
 </html>
