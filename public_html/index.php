@@ -63,45 +63,49 @@
 			<!-- Banner -->
 			<div class="headerdiv">
 
-					<img id="headerlogo" src="images/glenwood-springs-co.gif">
+				<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
 					<p style="margin:0">Glenwood Springs High School Demons Football </p>
 				</div>
-				</div>
-				<!-- End Banner -->
-		</header>
-		<header id="luxbar" class="luxbar-default">
-			<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
-			<div class="luxbar-menu luxbar-menu-left luxbar-menu-dark">
-				<ul class="luxbar-navigation">
-					<li class="luxbar-header">
-						<label class="luxbar-hamburger luxbar-hamburger-doublespin"
-								 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
-					</li>
-					<li class="luxbar-item"><a href="index.php">Home</a></li>
-					<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
-						<ul>
-							<li class="luxbar-item"><a href="#">Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
-						</ul>
-					</li>
-					<li class="luxbar-item dropdown"><a href="#">Rosters</a>
-						<ul>
-							<li class="luxbar-item"><a href="#">Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
-							<li class="luxbar-item"><a href="#">Managers</a></li>
-							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
-						</ul>
-					</li>
-					<li class="luxbar-item"><a href="forms.php">Forms</a></li>
-					<li class="luxbar-item"><a href="calendar.php">Calendar</a></li>
-					<li class="luxbar-item"><a href="contact.php">Contact</a></li>
-				</ul>
 			</div>
+			<!-- End Banner -->
 		</header>
-		<div class="upEventTitle"><p>Upcoming Events</p></div>
+		<div id="naviBar">
+			<header id="luxbar" class="luxbar-default">
+				<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+				<div class="luxbar-menu luxbar-menu-left luxbar-menu-dark">
+					<ul class="luxbar-navigation">
+						<li class="luxbar-header">
+							<label class="luxbar-hamburger luxbar-hamburger-doublespin"
+									 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+						</li>
+						<li class="luxbar-item"><a href="index.php">Home</a></li>
+						<li class="luxbar-item"><a href="#">Player Alerts</a></li>
+						<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
+							<ul>
+								<li class="luxbar-item"><a href="#">Varsity</a></li>
+								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
+								<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
+							</ul>
+						</li>
+						<li class="luxbar-item dropdown"><a href="#">Rosters</a>
+							<ul>
+								<li class="luxbar-item"><a href="#">Varsity</a></li>
+								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
+								<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
+								<li class="luxbar-item"><a href="#">Managers</a></li>
+								<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
+							</ul>
+						</li>
+						<li class="luxbar-item"><a href="forms.php">Forms</a></li>
+						<li class="luxbar-item"><a href="calendar.php">Calendar</a></li>
+						<li class="luxbar-item"><a href="#">Links</a></li>
+						<li class="luxbar-item"><a href="contact.php">Contact</a></li>
+					</ul>
+				</div>
+			</header>
+		</div>
+		<div class="upEventTitle"><p>Upcoming Events This Week</p></div>
 		<div class="upEvent">
 			<div id="calendar"></div>
 		</div>

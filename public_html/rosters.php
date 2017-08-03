@@ -54,6 +54,7 @@
 								 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
 					</li>
 					<li class="luxbar-item"><a href="index.php">Home</a></li>
+					<li class="luxbar-item"><a href="#">Player Alerts</a></li>
 					<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
@@ -72,6 +73,7 @@
 					</li>
 					<li class="luxbar-item"><a href="forms.php">Forms</a></li>
 					<li class="luxbar-item"><a href="calendar.php">Calendar</a></li>
+					<li class="luxbar-item"><a href="#">Links</a></li>
 					<li class="luxbar-item"><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>

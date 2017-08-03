@@ -24,3 +24,6 @@ jvContact.innerHTML ='Junior Varsity Coach<br> Todd Gair: ' + '<br>' + areaCode 
 var freshContact = document.getElementById('contactGreg');
 
 freshContact.innerHTML ='Freshman Coach<br> Greg Holley: ' + '<br>' + areaCode + freshPhone + ' | ' + freshName + '@' + freshDomain;
+
+
+document.getElementById('noScriptAlert').style.display = 'none';
