@@ -121,3 +121,27 @@ html,body {
 	text-align: center;
 	font-size: xx-large;
 }
+
+.playAlertTitle {
+	text-align: center;
+	color: black;
+	font-size: xx-large;
+	font-weight: bold;
+	text-shadow:
+		-1px -1px 0 lightgray,
+		1px -1px 0 lightgray,
+		-1px 1px 0 lightgray,
+		1px 1px 0 lightgray;
+}
+
+.playAlertText {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: black;
+	font-size: x-large;
+	background-color: lightgray;
+	max-width: 50vw;
+	border-radius: 25px;
+}
+

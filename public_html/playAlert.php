@@ -105,10 +105,20 @@
 				</div>
 			</header>
 		</div>
-		<div class="upEventTitle"><p>Upcoming Events This Week</p></div>
-		<div class="upEvent">
-			<div id="calendar"></div>
+		<div class="playAlertTitle">
+			<p>Glenwood Fall Fitness Camp 2017</p>
 		</div>
+		<div class="playAlertText">
+				Download registration form <a href="forms.php">here</a>.
+				<br>
+				Bring registration form and $30 to registration on Monday 8-7-17 at 2:30.
+				<br>
+				See form on "What to Bring".
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="playAlertText"
 
 	</body>
 </html>
