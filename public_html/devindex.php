@@ -83,8 +83,8 @@
 					<li class="luxbar-item"><a href="index.php">Home</a></li>
 					<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 						<ul>
-							<li class="luxbar-item"><a href="#">Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
+							<li class="luxbar-item"><a href="varSched.php">Varsity</a></li>
+							<li class="luxbar-item"><a href="jvSched.php">Junior Varsity</a></li>
 							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 						</ul>
 					</li>

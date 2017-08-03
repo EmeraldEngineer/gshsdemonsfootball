@@ -9,13 +9,7 @@
 		<!-- jquery scripts -->
 		<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
 
@@ -39,6 +33,7 @@
 				$('#calendar').fullCalendar({
 					timezone: 'America/Denver',
 					aspectRatio: 2.5,
+					height: parent,
 					header: {
 						left: 'prev, today',
 						center: 'title',
@@ -47,11 +42,24 @@
 
 
 					googleCalendarApiKey: 'AIzaSyC5NS9ELt7FVnjiUeylmK4keWJjDdhIP1g',
-					events: {
-						googleCalendarId: 'gshsfootballcalendar@gmail.com'
-					}
-
-
+					eventSources: [
+						{
+							googleCalendarId: 'gshsfootballcalendar@gmail.com',
+							color: 'blue'
+						},
+						{
+							googleCalendarId: 'tj3oorkmiuj3nhc366ebl85h1c@group.calendar.google.com',
+							color: 'purple'
+						},
+						{
+							googleCalendarId: '959jn2t6fufau9h8obs46qrpto@group.calendar.google.com',
+							color: 'orange'
+						},
+						{
+							googleCalendarId: 'k77j5h0vja0bkjdh9kidp2r2s8@group.calendar.google.com',
+							color: 'red'
+						}
+					]
 				});
 			});
 
@@ -64,7 +72,7 @@
 
 				<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
-					<p style="margin:0">Glenwood Springs High School Demons Football </p>
+					<p style="margin:0">Glenwood Springs High School <br> Demons Football </p>
 				</div>
 			</div>
 			<!-- End Banner -->
@@ -81,8 +89,8 @@
 					<li class="luxbar-item"><a href="playAlert.php">Player Alerts</a></li>
 					<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 						<ul>
-							<li class="luxbar-item"><a href="#">Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
+							<li class="luxbar-item"><a href="varSched.php">Varsity</a></li>
+							<li class="luxbar-item"><a href="jvSched.php">Junior Varsity</a></li>
 							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 						</ul>
 					</li>
@@ -90,7 +98,7 @@
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
+							<li class="luxbar-item"><a href="#">Freshman</a></li>
 							<li class="luxbar-item"><a href="#">Managers</a></li>
 							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 						</ul>
@@ -102,6 +110,8 @@
 				</ul>
 			</div>
 		</header>
-			<div id="calendar"></div>
+			<div id="calbox">
+		<div id="calendar"></div>
+			</div>
 	</body>
 </html>

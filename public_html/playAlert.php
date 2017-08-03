@@ -9,13 +9,7 @@
 		<!-- jquery scripts -->
 		<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
 
@@ -83,8 +77,8 @@
 						<li class="luxbar-item"><a href="playAlert.php">Player Alerts</a></li>
 						<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 							<ul>
-								<li class="luxbar-item"><a href="#">Varsity</a></li>
-								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
+								<li class="luxbar-item"><a href="varSched.php">Varsity</a></li>
+								<li class="luxbar-item"><a href="jvSched.php">Junior Varsity</a></li>
 								<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 							</ul>
 						</li>
@@ -92,7 +86,7 @@
 							<ul>
 								<li class="luxbar-item"><a href="#">Varsity</a></li>
 								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-								<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
+								<li class="luxbar-item"><a href="#">Freshman</a></li>
 								<li class="luxbar-item"><a href="#">Managers</a></li>
 								<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 							</ul>
@@ -118,7 +112,34 @@
 		<br>
 		<br>
 		<br>
-		<div class="playAlertText"
+		<div class="playAlertTitle">
+			<p>Register for Fall Sports 2017</p>
+		</div>
+		<div class="playAlertText">
+			<p>Players must be registered by Friday 8-11-17 to be eligible for the first day of practice on Monday 8-14-17.
+				<br>
+				<br>
+				You can register <a href="http://www.roaringfork.portal.rschooltoday.com/">here</a>.
+				<br>
+				<br>
+				Or by going to <a href="http://www.rfsd.org">www.rfsd.org</a> and selecting "Online Athletic Registration" under the "Parents" menu.
+				<br>
+				<br>
+			</p>
+				<p class="emphText">Please ensure you complete all 9 steps on the online athletic registration page, you will only be registered after all 9 steps are completed.
+				</p>
+		</div>
+
+		<div class="playAlertTitle">
+			<p>Player Equipment Needs</p>
+		</div>
+		<div class="playAlertText">
+			<p>This is a list of equipment you may want to order or purchase before the first practice on 8-14-17</p>
+			<p>Football Cleats - Player Provides</p>
+			<p>Football Girdle - Optional</p>
+			<p>Football Gloves - Optional</p>
+			<p>Mouth Guard - Player Provides</p>
+		</div>
 
 	</body>
 </html>

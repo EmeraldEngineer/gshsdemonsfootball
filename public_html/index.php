@@ -9,13 +9,7 @@
 		<!-- jquery scripts -->
 		<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
 
@@ -83,8 +77,8 @@
 						<li class="luxbar-item"><a href="playAlert.php">Player Alerts</a></li>
 						<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 							<ul>
-								<li class="luxbar-item"><a href="#">Varsity</a></li>
-								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
+								<li class="luxbar-item"><a href="varSched.php">Varsity</a></li>
+								<li class="luxbar-item"><a href="jvSched.php">Junior Varsity</a></li>
 								<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
 							</ul>
 						</li>
@@ -92,7 +86,7 @@
 							<ul>
 								<li class="luxbar-item"><a href="#">Varsity</a></li>
 								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-								<li class="luxbar-item"><a href="freshSched.php">Freshman</a></li>
+								<li class="luxbar-item"><a href="#">Freshman</a></li>
 								<li class="luxbar-item"><a href="#">Managers</a></li>
 								<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 							</ul>
@@ -105,7 +99,7 @@
 				</div>
 			</header>
 		</div>
-		<div class="upEventTitle"><p>Upcoming Events This Week</p></div>
+		<div class="playAlertTitle"><p>Upcoming Events This Week</p></div>
 		<div class="upEvent">
 			<div id="calendar"></div>
 		</div>
