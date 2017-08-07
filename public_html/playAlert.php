@@ -75,6 +75,7 @@
 						</li>
 						<li class="luxbar-item"><a href="index.php">Home</a></li>
 						<li class="luxbar-item"><a href="playAlert.php">Player Alerts</a></li>
+						<li class="luxbar-item"><a href="demHappen.php">Demon Happenings</a></li>
 						<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 							<ul>
 								<li class="luxbar-item"><a href="varSched.php">Varsity</a></li>
@@ -99,6 +100,24 @@
 				</div>
 			</header>
 		</div>
+		<div class="playAlertTitle">
+			<p>Youth Camp</p>
+		</div>
+		<div class="playAlertText">
+			<p>All seniors and juniors are required to attend and assist at our youth camp on Tuesday 8-15 through Thursday 8-17. From 4:30pm - 6:30pm.</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="playAlertTitle">
+			<p>Two A Days</p>
+		</div>
+		<div class="playAlertText">
+			<p>Players must bring sack lunch and hydration drink during our Two A Day sessions, 8-14-17 through 8-18-17.</p>
+		</div>
+		<br>
+		<br>
+		<br>
 		<div class="playAlertTitle">
 			<p>Glenwood Fall Fitness Camp 2017</p>
 		</div>

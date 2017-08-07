@@ -100,10 +100,11 @@
 				</div>
 			</header>
 		</div>
-		<div class="playAlertTitle"><p>Upcoming Events This Week</p></div>
-		<div class="upEvent">
-			<div id="calendar"></div>
+		<div class="playAlertTitle">
+			<p>Demon Happenings</p>
 		</div>
-
+		<div class="playAlertText">
+			<p>Congratulations to Spencer Cloud for winning the summer weight lifting achievement award!</p>
+		</div>
 	</body>
 </html>

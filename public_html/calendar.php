@@ -87,6 +87,7 @@
 					</li>
 					<li class="luxbar-item"><a href="index.php">Home</a></li>
 					<li class="luxbar-item"><a href="playAlert.php">Player Alerts</a></li>
+					<li class="luxbar-item"><a href="demHappen.php">Demon Happenings</a></li>
 					<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 						<ul>
 							<li class="luxbar-item"><a href="varSched.php">Varsity</a></li>

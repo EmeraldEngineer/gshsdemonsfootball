@@ -75,6 +75,7 @@
 					</li>
 					<li class="luxbar-item"><a href="index.php">Home</a></li>
 					<li class="luxbar-item"><a href="playAlert.php">Player Alerts</a></li>
+					<li class="luxbar-item"><a href="demHappen.php">Demon Happenings</a></li>
 					<li class="luxbar-item dropdown"><a href="#">Game Schedules</a>
 						<ul>
 							<li class="luxbar-item"><a href="varSched.php">Varsity</a></li>
@@ -98,6 +99,16 @@
 				</ul>
 			</div>
 		</header>
+		<div class="playAlertTitle">
+			<p>Youth Football Camp 2017</p>
+		</div>
+		<div class="formsText">
+
+			<form method="get" action="downloads/YOUTH-FOOTBALL-CAMP-2017.pdf">
+				<button type="submit">PDF</button>
+			</form>
+		</div>
+		<br>
 		<div class="playAlertTitle">
 			<p>Fall Fit Camp 2017</p>
 		</div>
