@@ -67,7 +67,7 @@
 
 				<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
-					<p style="margin:0">Glenwood Springs High School Demons Football </p>
+					<p style="margin:0">Glenwood Springs High School Demons Football 2017</p>
 				</div>
 			</div>
 			<!-- End Banner -->

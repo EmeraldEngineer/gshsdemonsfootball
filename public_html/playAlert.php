@@ -59,7 +59,7 @@
 
 				<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
-					<p style="margin:0">Glenwood Springs High School Demons Football </p>
+					<p style="margin:0">Glenwood Springs High School Demons Football 2017</p>
 				</div>
 			</div>
 			<!-- End Banner -->
@@ -87,7 +87,7 @@
 							<ul>
 								<li class="luxbar-item"><a href="#">Varsity</a></li>
 								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-								<li class="luxbar-item"><a href="#">Freshman</a></li>
+								<li class="luxbar-item"><a href="freshRoster.php">Freshman</a></li>
 								<li class="luxbar-item"><a href="#">Managers</a></li>
 								<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 							</ul>
@@ -100,25 +100,16 @@
 				</div>
 			</header>
 		</div>
+
+
 		<div class="playAlertTitle">
-			<p>Youth Camp</p>
+			<p>Football Picture Order Form</p>
 		</div>
 		<div class="playAlertText">
-			<p>All seniors and juniors are required to attend and assist at our youth camp on Tuesday 8-15 through Thursday 8-17. From 4:30pm - 6:30pm.</p>
+			<p>The order form for pictures is now available <a href="forms.php">here</a>. </p>
 		</div>
-		<br>
-		<br>
-		<br>
-		<div class="playAlertTitle">
-			<p>Two A Days</p>
-		</div>
-		<div class="playAlertText">
-			<p>Players must bring sack lunch and hydration drink during our Two A Day sessions, 8-14-17 through 8-18-17.</p>
-		</div>
-		<br>
-		<br>
-		<br>
-		<div class="playAlertTitle">
+		<!-- Fall Fit Camp Alert -->
+		<!--<div class="playAlertTitle">
 			<p>Glenwood Fall Fitness Camp 2017</p>
 		</div>
 		<div class="playAlertText">
@@ -127,7 +118,7 @@
 				Bring registration form and $30 to registration on Monday 8-7-17 at 2:30.
 				<br>
 				See form on "What to Bring".
-		</div>
+		</div></-->
 		<br>
 		<br>
 		<br>
@@ -155,7 +146,7 @@
 		<div class="playAlertText">
 			<p>This is a list of equipment you may want to order or purchase before the first practice on 8-14-17</p>
 			<p>Football Cleats - Player Provides</p>
-			<p>Football Girdle - Optional</p>
+			<p>Football Girdle - Player Provides</p>
 			<p>Football Gloves - Optional</p>
 			<p>Mouth Guard - Player Provides</p>
 		</div>

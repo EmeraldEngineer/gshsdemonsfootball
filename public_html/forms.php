@@ -60,7 +60,7 @@
 
 				<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
-					<p style="margin:0">Glenwood Springs High School Demons Football </p>
+					<p style="margin:0">Glenwood Springs High School Demons Football 2017</p>
 				</div>
 			</div>
 			<!-- End Banner -->
@@ -87,7 +87,7 @@
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
+							<li class="luxbar-item"><a href="freshRoster.php">Freshman</a></li>
 							<li class="luxbar-item"><a href="#">Managers</a></li>
 							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 						</ul>
@@ -99,6 +99,32 @@
 				</ul>
 			</div>
 		</header>
+		<div class="playAlertTitle">
+			<p>Freshman Roster</p>
+		</div>
+		<div class="formsText">
+			<form method="get" action="downloads/Freshman%20Roster%202017-2018.pdf">
+				<button type="submit">PDF</button>
+			</form>
+		</div>
+		<div class="playAlertTitle">
+		<p>Football Picture Order Form</p>
+		</div>
+		<div class="formsText">
+			<form method="get" action="downloads/demon-football-photo-order-form.pdf">
+				<button type="submit">PDF</button>
+			</form>
+		</div>
+
+		<div class="playAlertTitle">
+			<p>Glenwood Springs Demons Clothing Order Form</p>
+		</div>
+		<div class="formsText">
+			<form method="get" action="downloads/2017%20GSHS%20FOOTBALL%20FLYER.pdf">
+				<button type="submit">PDF</button>
+			</form>
+		</div>
+
 		<div class="playAlertTitle">
 			<p>Youth Football Camp 2017</p>
 		</div>
@@ -112,7 +138,8 @@
 		<div class="playAlertTitle">
 			<p>Fall Fit Camp 2017</p>
 		</div>
-		<div class="formsText">
+		<!-- Fall Fit Camp Form, saved for later -->
+		<!--<div class="formsText">
 
 			<form method="get" action="downloads/FALL%20FIT%20FB%20CAMP%202017.pdf">
 				<button type="submit">PDF</button>
@@ -120,6 +147,6 @@
 			<form method="get" action="downloads/FALL%20FIT%20FB%20CAMP%202017.doc">
 				<button type="submit">MS Word</button>
 			</form>
-		</div>
+		</div>-->
 	</body>
 </html>

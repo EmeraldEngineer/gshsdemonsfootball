@@ -59,7 +59,7 @@
 
 				<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
-					<p style="margin:0">Glenwood Springs High School Demons Football </p>
+					<p style="margin:0">Glenwood Springs High School Demons Football 2017</p>
 				</div>
 			</div>
 			<!-- End Banner -->
@@ -86,7 +86,7 @@
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
+							<li class="luxbar-item"><a href="freshRoster.php">Freshman</a></li>
 							<li class="luxbar-item"><a href="#">Managers</a></li>
 							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 						</ul>

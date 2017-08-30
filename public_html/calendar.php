@@ -58,6 +58,10 @@
 						{
 							googleCalendarId: 'k77j5h0vja0bkjdh9kidp2r2s8@group.calendar.google.com',
 							color: 'red'
+						},
+						{
+							googleCalendarId: '85efvd58d3p8svf8n4tl2frqdc@group.calendar.google.com',
+							color: 'green'
 						}
 					]
 				});
@@ -99,7 +103,7 @@
 						<ul>
 							<li class="luxbar-item"><a href="#">Varsity</a></li>
 							<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-							<li class="luxbar-item"><a href="#">Freshman</a></li>
+							<li class="luxbar-item"><a href="freshRoster.php">Freshman</a></li>
 							<li class="luxbar-item"><a href="#">Managers</a></li>
 							<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 						</ul>

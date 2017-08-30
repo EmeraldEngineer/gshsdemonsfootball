@@ -59,7 +59,7 @@
 
 				<img id="headerlogo" src="images/glenwood-springs-co.gif">
 				<div id="headertext">
-					<p style="margin:0">Glenwood Springs High School Demons Football </p>
+					<p style="margin:0">Glenwood Springs High School Demons Football 2017</p>
 				</div>
 			</div>
 			<!-- End Banner -->
@@ -87,7 +87,7 @@
 							<ul>
 								<li class="luxbar-item"><a href="#">Varsity</a></li>
 								<li class="luxbar-item"><a href="#">Junior Varsity</a></li>
-								<li class="luxbar-item"><a href="#">Freshman</a></li>
+								<li class="luxbar-item"><a href="freshRoster.php">Freshman</a></li>
 								<li class="luxbar-item"><a href="#">Managers</a></li>
 								<li class="luxbar-item"><a href="#">Coaching Staff</a></li>
 							</ul>
@@ -100,11 +100,27 @@
 				</div>
 			</header>
 		</div>
+
 		<div class="playAlertTitle">
-			<p>Demon Happenings</p>
+			<p>Homecoming Week</p>
 		</div>
 		<div class="playAlertText">
-			<p>Congratulations to Spencer Cloud for winning the summer weight lifting achievement award!</p>
+			<p>Homecoming week runs from Monday, October 9th through Friday, October 13th. See calendar page for events (TBD).</p>
+		</div>
+
+		<div class="playAlertTitle">
+			<p>Demon Football Spirit Gear</p>
+		</div>
+		<div class="playAlertText">
+			<p>Glenwood Springs Demons Football branded clothing is now available. A PDF with instructions for order can be found <a href="forms.php">here</a>. Or you can browse the store directly <a href="https://glenwoodfb2017.itemorder.com">here</a>. </p>
+		</div>
+
+
+		<div class="playAlertTitle">
+			<p>Demon Fight Song</p>
+		</div>
+		<div class="playAlertText">
+			<p>Send Glenwood down the field, Glenwood will win. Fight, fight, for victory, Glenwood knows no defeat. So roll out the mighty score, never give in. Shoulder to shoulder, we will fight, fight, fight!</p>
 		</div>
 	</body>
 </html>
