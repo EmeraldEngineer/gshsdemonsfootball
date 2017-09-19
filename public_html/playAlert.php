@@ -100,8 +100,12 @@
 				</div>
 			</header>
 		</div>
-
-
+		<div class="playAlertTitle">
+			<p>Varsity Travel</p>
+		</div>
+		<div class="playAlertText">
+			<p>Harrison Varsity travel bus leaves at 10am on Friday September 22nd.</p>
+		</div>
 		<div class="playAlertTitle">
 			<p>Football Picture Order Form</p>
 		</div>

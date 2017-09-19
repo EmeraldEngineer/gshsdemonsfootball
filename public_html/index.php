@@ -100,6 +100,10 @@
 				</div>
 			</header>
 		</div>
+
+
+		<iframe src="https://scorestream.com/widgets/scoreboards/horz?userWidgetId=19047" style="padding:0px;border:0px;width:100%;max-width:100%;height:100%;max-height:100%;" title="Realtime sports scoreboard widget" scrolling="no" frameBorder="0"></iframe>
+
 		<div class="playAlertTitle"><p>Upcoming Events This Week</p></div>
 		<div class="upEvent">
 			<div id="calendar"></div>
